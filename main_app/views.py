@@ -51,16 +51,16 @@ def index(request):
 
 
 # Twitter Emedded List Timeline
-def twitterFeed(request):
-    twttr.widgets.createTimeline(
-      {
-        sourceType: "list",
-        ownerScreenName: "TwitterDev",
-        slug: "national-parks"
-      },
-      document.getElementById("twitter_container")
-    );
-    return render('national-parks')
+    # def twttr.widgets.createTimeline(
+    #   {
+    #     sourceType: "list",
+    #     ownerScreenName: "TwitterDev",
+    #     slug: "national-parks",
+    #     title: "Twitter Timeline"
+    #   },
+    #   document.getElementById("Twitter Timeline")
+    # );
+    # return render('national-parks')
 
 
 def about(request):
