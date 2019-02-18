@@ -179,3 +179,7 @@ ul.nav li a:hover, ul.nav li a:active {
   text-align: center;
   margin-bottom: 20px;
 }
+
+.twitter_container {
+    border: 2px solid blue;
+}
